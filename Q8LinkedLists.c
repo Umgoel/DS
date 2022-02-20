@@ -39,7 +39,6 @@ void pop(struct node **head_ref){
     *head_ref = ptr->next;
     free(ptr);
     printf("\nPopped element : %d",d); 
-    // }
 }
 
 void DeQ(struct node **head_ref){
@@ -82,7 +81,6 @@ void display (struct node *n)
 }
 
 int main(){
-    printf("Start\n");
     int ch;
     struct node *head = NULL;
     while(1){
